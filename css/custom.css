@@ -1,39 +1,44 @@
-/* Move down content because we have a fixed navbar that is 50px tall */
 body {
- 	 padding-top: 50px;
+	padding-top: 60px;
+	padding-bottom: 40px;
 }
 
-#get-involved {
-  background-color: #f5f5f5;
+.sidebar-nav {
+	padding: 9px 0;
 }
 
-.jumbotron {
-	color: white;
+@media (max-width: 980px) {
+/* Enable use of floated navbar text */
+	.navbar-text.pull-right {
+		float: none;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+
+/* for editing the colors of the top menu, the bottom background image is the most important
+.navbar-inverse .navbar-inner {
+  background-color: #AFEEEE;
+  background-image: -moz-linear-gradient(top, #AFEEEE, #AFEEEE);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#AFEEEE), to(#AFEEEE));
+  background-image: -webkit-linear-gradient(top, #AFEEEE, #AFEEEE);
+  background-image: -o-linear-gradient(top, #AFEEEE, #AFEEEE);
+  background-image: linear-gradient(to bottom, #AFEEEE, #AFEEEE);
+  background-repeat: repeat-x;
+  border-color: white;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+}*/
+
+
+.custom-container {
+	margin-left: 0px;
+	margin-right: 0px;	
+	/*background-image: url("../images/hero_image.jpg");*/
+}
+
+.header {
 	text-align:center;
-	background-image: url("../first-site-lesson-15/images/hero_image.jpg");
-}
-
-ul.nav, .jumbotron h1 {
-	font-family: 'Arvo', courier, serif;
-}
-
-ul.nav{
-	font-size: 13px;
-}
-
-.jumbotron h1{
-	margin-top: 0px;
-	margin-bottom: 50px;	
-}
-
-.jumbotron p{
-	font-weight: 100;
-	margin-bottom: 30px;
-	padding: 0 50px;	
-}
-
-.btn-lg {
-	font-size: 36px;
+	/*background-image: url("../first-site-lesson-15/images/hero_image.jpg");*/	
 }
 
 .homepage {
@@ -66,6 +71,7 @@ ul.nav{
 }
 
 .homepage hr {
+	text-align: center;
 	border-top: 1px solid #e74c3c;	
 	width: 150px;
 	margin-top: 15px;
@@ -75,48 +81,4 @@ ul.nav{
   color: #e74c3c;
   text-decoration: none;
   opacity: .8;
-}
-
-footer {
-  background-color: #e74c3c;
-  padding-top: 150px;
-  padding-bottom: 30px;
-}
-
-/* Responsive Styling */
-@media (max-width: 1199px) {
-  .jumbotron h1 {
-    font-size: 56px;
-    padding: 30px;
-  }
-}
-@media (max-width: 991px) {
-  .jumbotron h1 {
-    font-size: 44px;
-  }
-  .jumbotron p {
-    padding: 0 10px;
-  }
-  #get-involved .col-md-4 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-}
-@media (max-width: 767px) {
-  .jumbotron h1 {
-    font-size: 24px;
-  }
-  .jumbotron p {
-    font-size: 16px;
-    padding: 0;
-  }
-  .btn-lg {
-    font-size: 18px;
-  }
-  .homepage p {
-    font-size: 18px;
-  }
-  footer img {
-    width: 80%;
-  }
 }
