@@ -1,84 +1,32 @@
 body {
+	background-image:url("../images/background5.jpg");
+	background-size: 1300px 760px;
+	background-repeat: no-repeat;
 	padding-top: 60px;
-	padding-bottom: 40px;
+	padding-bottom: 40px;	
+	line-height: 15px;
+	font-family: sans-serif;
 }
 
-.sidebar-nav {
-	padding: 9px 0;
+h1 {
+	text-align: center	
 }
 
-@media (max-width: 980px) {
-/* Enable use of floated navbar text */
-	.navbar-text.pull-right {
-		float: none;
-		padding-left: 5px;
-		padding-right: 5px;
-	}
+#tg {
+	color:lightcyan;
+	text-shadow: black 1px 1px;
+	letter-spacing: .3em;
+	font-size:100px;
+	font-weight: 700;
+	font-family: raleway !important;
 }
 
-/* for editing the colors of the top menu, the bottom background image is the most important
-.navbar-inverse .navbar-inner {
-  background-color: #AFEEEE;
-  background-image: -moz-linear-gradient(top, #AFEEEE, #AFEEEE);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#AFEEEE), to(#AFEEEE));
-  background-image: -webkit-linear-gradient(top, #AFEEEE, #AFEEEE);
-  background-image: -o-linear-gradient(top, #AFEEEE, #AFEEEE);
-  background-image: linear-gradient(to bottom, #AFEEEE, #AFEEEE);
-  background-repeat: repeat-x;
-  border-color: white;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
-}*/
-
-
-.custom-container {
-	margin-left: 0px;
-	margin-right: 0px;	
-	/*background-image: url("../images/hero_image.jpg");*/
-}
-
-.header {
-	text-align:center;
-	/*background-image: url("../first-site-lesson-15/images/hero_image.jpg");*/	
-}
-
-.homepage {
-  text-align: center;
-  padding-bottom: 50px;
-  padding-top: 40px
-}
-
-.homepage h2, .homepage h3{
-	text-transform:uppercase;
-	font-family: 'Arvo', courier, serif;
-	color: #e74c3c;
-}
-
-.homepage h2{
-	font-size: 30px;
-}
-
-.homepage h3{
-	font-size: 26px;
-}
-
-.homepage p{
-	font-size: 21px;
-	font-weight: 300;	
-}
-
-.homepage a {
-	color: #e74c3c;	
-}
-
-.homepage hr {
-	text-align: center;
-	border-top: 1px solid #e74c3c;	
-	width: 150px;
-	margin-top: 15px;
-}
-
-.homepage a:hover {
-  color: #e74c3c;
-  text-decoration: none;
-  opacity: .8;
+#home small {
+	font-family: raleway !important;
+	font-weight: 700;
+	letter-spacing: 0.3em;
+	font-size:40px;
+	font-weight: bold;
+	text-shadow: black 1px 1px;
+	color: white;
 }
