@@ -10,6 +10,7 @@ body {
 	padding-bottom: 40px;	
 	line-height: 15px;
 	font-family: sans-serif;
+	 
 }
 
 h1 {
@@ -20,16 +21,20 @@ h1 {
 	color:lightcyan;
 	text-shadow: black 1px 1px;
 	letter-spacing: .3em;
-	font-size:6.25em;
+	font-size:8vw;
 	font-weight: 700;
 	font-family: raleway !important;
+	text-size-adjust: auto;
+	-moz-text-size-adjust: auto;
+	-webkit-text-size-adjust: auto;
+	-ms-text-size-adjust: auto;
 }
 
 #cs {
 	font-family: raleway !important;
 	font-weight: 700;
 	letter-spacing: 0.3em;
-	font-size:3em;
+	font-size:4vw;
 	font-weight: bold;
 	text-shadow: black 1px 1px;
 	color: white;
